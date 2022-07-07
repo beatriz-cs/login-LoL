@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+body{
+    width: 100%;
+}
+
+header{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 30%;
+  }
+
+img{
+    width: 150px;
+}
+
+main{
+    width: 30%;
+    height: 100%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    height: 90%;
+}
+
+h2{
+    align-items: center;
+    font-size: 1em;
+    padding: 3%;
+}
+
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding: 3%;
+}
+
+
+.login input{
+    padding: 0.9rem;
+    width: 90%;
+    background-color:#E8E6E6;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 0px 0px 9px 0px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.login input:hover{
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+::placeholder{
+    font-size: 0.5rem;
+    position: relative;
+    top: -10px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    padding: 3%;
+}
+
+.logos img{
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+
+.logo-facebook{
+    background-color: #2051FF;
+    width: 15%;
+    height: 10%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.logo-google{
+    background-color: #8A0000;
+    width: 15%;
+    height: 10%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.logo-apple{
+    background-color: black;
+    width: 15%;
+    height: 10%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.logado{
+    padding: 3%;
+    margin-left: 9%;
+}
+
+label{
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+.logado input{
+    width: 10px;
+    height: 10px;
+    background-color: #D9D9D9;
+}
+
+.btn{
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 3%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.btn p{
+    color: #A6A6A6;
+    font-size: 0.6em;
+    transition: 0.3s ease;
+    backface-visibility: hidden;
+}
+
+.btn p:hover{
+    cursor: pointer;
+    color: blue;
+    opacity: 0.5;
+}
+
+.game{
+    width: 70%;
+    height: 95%;
+    background-image: url(img/game.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 30%;
+    transition: 0.3s ease;
+    backface-visibility: hidden;
+}
+
+.game:hover{
+    opacity: 0.9;
+}
+
+footer{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer p{
+    font-size: 0.6em;
+    color: #A6A6A6;
+}
+
