@@ -218,3 +218,10 @@ footer p{
     color: #A6A6A6;
 }
 
+.ativo{
+    background-color: #FF002E;
+    border: none;
+    cursor: pointer;
+}
+
+
